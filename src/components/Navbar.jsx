@@ -4,7 +4,7 @@ import { RxTextAlignJustify } from "react-icons/rx";
 const Navbar = () => {
   return (
     <div className="flex items-center justify-between px-6 sm:px-10 lg:px-20 py-5 font-sans">
-      {/* Logo + Mobile Menu Icon */}
+      {/* Logo  */}
       <div className="flex items-center gap-5 text-3xl md:text-4xl lg:text-5xl font-semibold">
         Portfolio.
         <div className="md:hidden text-2xl">

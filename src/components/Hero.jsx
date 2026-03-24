@@ -3,7 +3,10 @@ import { SiGmail } from "react-icons/si";
 
 const Hero = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-amber-100">
+    <div
+      id="home"
+      className="flex justify-center items-center min-h-screen bg-amber-100"
+    >
       <div className="flex flex-col justify-center items-center text-center">
         <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold">
           Hi, I'm <span className="text-amber-900">Roni Pal</span>
@@ -14,7 +17,7 @@ const Hero = () => {
           DEVELOPER
         </div>
 
-        <div className="max-w-md sm:max-w-lg md:max-w-xl text-base sm:text-lg md:text-xl text-gray-700">
+        <div className="max-w-md sm:max-w-lg md:max-w-xl text-base sm:text-lg md:text-xl text-gray-700 mt-5">
           I build responsive, scalable, and modern web applications using
           React.js and Tailwind CSS. I focus on clean UI design, smooth user
           experience, and performance optimization.
