@@ -5,16 +5,19 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between px-6 sm:px-10 lg:px-20 py-5 font-sans">
       {/* Logo  */}
-      <div className="flex items-center gap-5 text-3xl md:text-4xl lg:text-5xl font-semibold">
+      <div className="flex items-center gap-5 text-3xl md:text-4xl lg:text-5xl font-semibold ">
         Portfolio.
-        <div className="md:hidden text-2xl">
+        <div className="md:hidden text-3xl ">
           <RxTextAlignJustify />
         </div>
       </div>
 
       {/* Navigation Links (Desktop only) */}
       <div className="flex gap-10 items-center text-sm sm:text-base md:text-lg max-md:hidden">
-        <a href="#home" className="hover:text-amber-600 transition">
+        <a
+          href="#home"
+          className="hover:text-amber-600 hover:border-b-2 transition"
+        >
           Home
         </a>
         <a href="#projects" className="hover:text-amber-600 transition">
